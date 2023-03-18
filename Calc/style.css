@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Ubuntu&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Dosis', sans-serif;
+}
+
+.Calculator{
+  width: 300px;
+  height: 452px;
+  box-shadow: 4px 4px 30px rgb(0, 0, 0);
+  box-align: center;
+  
+}
+
+.button{
+  width: 60px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.row{
+  margin: 8px 0;
+}
+
+.row input{
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 267px;
+  background: lightblue;
+}
